@@ -27,11 +27,11 @@ button.addEventListener("click", () => {
   while (z === "") {
     z = prompt("Please enter a number for your new grid (the number must be between 2 or 99)")
   };
-  while ( z > 100) {
-    size = prompt("The number muse be between 2 and 99");
+   if ( z > 99) {
+  return size = prompt("The number must be between 2 and 99");
   };
-  while ( z <= 2) {
-    size = prompt("The number muse be between 2 and 99");
+  if ( z < 2) {
+   return size = prompt("The number must be between 2 and 99");
   };
 
   container.replaceChildren();
