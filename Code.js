@@ -1,7 +1,7 @@
 const container = document.getElementById("container");
 const button = document.getElementById("resetGrid");
-container.style.width = "720px";
-container.style.height = "720px";
+container.style.width = "960px";
+container.style.height = "960px";
 
 function createGrid(x) {
   for( a = 0; a < x; a++) {
